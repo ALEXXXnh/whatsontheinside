@@ -5,13 +5,13 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
 
-    cursor: none;
+    
 }
 .cursor{
     display: flex;
     position: fixed;
-    width: 12%;
-    height: 12%;
+    width: 6.7%;
+    height: auto;
     pointer-events: none;
 
     z-index: 1000;
@@ -57,11 +57,11 @@ body{
 .homepage{
     background-color: #0000;
     z-index: 900;
-    display: none;
+
 }
 
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: helvetica;
     color: #c60000;
     font-style: italic;
 }
@@ -101,6 +101,9 @@ background-color: #710b0b57;
     width: 100%;
     font-size: 100%;
 }
+.txt1:hover{
+    background-color: #d00c0c46;
+}
 .w{
     position: absolute;
     width: 22%;
@@ -111,7 +114,7 @@ background-color: #710b0b57;
 }
 .w:hover{
     filter: brightness(112%);
-    scale:(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
 .m{
     position: absolute;
@@ -123,13 +126,25 @@ background-color: #710b0b57;
 }
 .m:hover{
     filter: brightness(112%);
-    scale:(1.2, 1.2);
+    transform: scale(1.2, 1.2);
 }
-
-
-
-.w1{
-display: none;
+.job{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    top: 30%;
+    left: 75%;
+    filter: opacity(0%);
+}
+.job:hover{
+    filter: opacity(100%);
+}
+.jo{
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 40%;
+    left: 85%; 
 }
 
 
@@ -140,35 +155,140 @@ display: none;
     opacity: (100%);
     z-index: 900;
 }
+.w1{
+display: none;
+}
 
 .text1-2{
-    
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next1{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 45%;
+    left: 70%;
+    color: red;
+}
+.next1:hover{
+    background-color: #c60000;
 }
 
 
 
 
 .shot2-2{
-
-    position: absolute;
-    justify-content: center;
-    opacity: (90%);
-    z-index: 900;
+position: absolute;
+justify-content: center;
+filter: opacity(90%);
+z-index: 900;
 }
+.w2{
+display: none;
+}
+
+.text2-2{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next2{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 15%;
+    left: 70%;
+    color: red;
+}
+.next2:hover{
+    background-color: #c60000;
+}
+
+
+
+
+
+
+
 .shot3-2{
 
     position: absolute;
     justify-content: center;
-    opacity: (60%);
+    filter: opacity(70%);
     z-index: 900;
 }
-.shot4-2{
-    
+.w3{
+display: none;
+}
+
+.text3-2{
     position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next3{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 45%;
+    left: 70%;
+    color: red;
+}
+.next3:hover{
+    background-color: #c60000;
+}
+
+
+
+
+
+
+
+
+.shot4-2{
+   position: absolute;
     justify-content: center;
     filter: opacity(20%);
     z-index: 900;
 }
+.w4{
+display: none;
+}
+
+.text4-2{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next4{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    
+    font-size: 170%;
+    top: 15%;
+    left: 70%;
+    color: red;
+}
+.next4:hover{
+    background-color: #c60000;
+}
+
 
 
 
@@ -182,5 +302,260 @@ display: none;
     opacity: (100%);
     z-index: 899;
 }
+.w5{
+display: none;
+}
+
+.text5-2{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next5{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 45%;
+    left: 70%;
+    color: rgb(255, 255, 255);
+}
+.back2{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 55%;
+    left: 70%;
+    color: red;
+}
+.back2:hover{
+    background-color: #c60000;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shot1-3{
+
+    position: absolute;
+    justify-content: center;
+    width: 60%;
+    opacity: (100%);
+    z-index: 900;
+}
+.m1{
+display: none;
+}
+
+.text1-3{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next1m{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 35%;
+    left: 70%;
+    color: red;
+}
+.next1m:hover{
+    background-color: #c60000;
+}
+
+
+
+
+.shot2-3{
+position: absolute;
+justify-content: center;
+width: 60%;
+filter: opacity(90%);
+z-index: 900;
+}
+.m2{
+display: none;
+}
+
+.text2-3{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next2m{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 35%;
+    left: 70%;
+    color: red;
+}
+.next2m:hover{
+    background-color: #c60000;
+}
+
+
+
+
+
+
+
+.shot3-3{
+
+    position: absolute;
+    justify-content: center;
+    width: 60%;
+    filter: opacity(70%);
+    z-index: 900;
+}
+.m3{
+display: none;
+}
+
+.text3-3{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    text-align: left;
+    top: 0%;
+    left: 65%;
+}
+.next3m{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 15%;
+    left: 70%;
+    color: red;
+}
+.next3m:hover{
+    background-color: #c60000;
+}
+
+
+
+
+
+
+
+
+.shot4-3{
+   position: absolute;
+    justify-content: center;
+    width: 60%;
+    filter: opacity(30%);
+    z-index: 900;
+}
+.m4{
+display: none;
+}
+
+.text4-3{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next4m{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 15%;
+    left: 70%;
+    color: red;
+}
+.next4m:hover{
+    background-color: #c60000;
+}
+
+
+
+
+
+
+.shot5-3{
+    position: absolute;
+width: 60%;
+
+
+    opacity: (100%);
+    z-index: 899;
+}
+.m5{
+display: none;
+}
+
+.text5-3{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 0%;
+    left: 65%;
+}
+.next5m{
+    position: absolute;
+    width: 20%;
+    text-align: left;
+    font-size: 170%;
+    top: 15%;
+    left: 70%;
+    color: rgb(255, 255, 255);
+}
+.back3{
+    position: absolute;
+    width: 100%;
+    font-size: 170%;
+    top: 25%;
+    left: 70%;
+    color: red;
+}
+.back3:hover{
+    background-color: #c60000;
+}
