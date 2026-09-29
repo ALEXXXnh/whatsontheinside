@@ -1,0 +1,186 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+
+    cursor: none;
+}
+.cursor{
+    display: flex;
+    position: fixed;
+    width: 12%;
+    height: 12%;
+    pointer-events: none;
+
+    z-index: 1000;
+}
+
+@keyframes glitch{
+    0%{
+    opacity: 100%;
+    }
+   
+    0.9%{
+        opacity: 100%;
+    }
+    1%{
+    opacity: 0%;
+    }
+    1.15%{
+    opacity: 100%;
+    }
+    67%{
+    opacity: 0%;
+    }
+    67.167%{
+    opacity: 100%;
+    }
+    69%{
+    opacity: 20%;
+    }
+    69.069%{
+    opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+#all{
+    animation: glitch 4s ;
+}
+
+
+.homepage{
+    background-color: #0000;
+    z-index: 900;
+    display: none;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #c60000;
+    font-style: italic;
+}
+.have{
+position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+font-size: 300%;
+}
+.have:hover{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-style: italic;  
+}
+.choose{
+position: absolute;
+top: 7%;
+left: 0%;
+width: 100%;
+font-size: 200%;
+}
+.choose:hover{
+background-color: #710b0b57;
+
+}
+.txt1{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    font-size: 100%;
+}
+.w{
+    position: absolute;
+    width: 22%;
+    height: auto;
+    top: 30%;
+    left: 10%;
+    filter: brightness(60%);
+}
+.w:hover{
+    filter: brightness(112%);
+    scale:(1.2, 1.2);
+}
+.m{
+    position: absolute;
+    width: 25%;
+    height: auto;
+    top: 30%;
+    left: 45%;
+    filter: brightness(60%);
+}
+.m:hover{
+    filter: brightness(112%);
+    scale:(1.2, 1.2);
+}
+
+
+
+.w1{
+display: none;
+}
+
+
+.shot1-2{
+
+    position: absolute;
+    justify-content: center;
+    opacity: (100%);
+    z-index: 900;
+}
+
+.text1-2{
+    
+}
+
+
+
+
+.shot2-2{
+
+    position: absolute;
+    justify-content: center;
+    opacity: (90%);
+    z-index: 900;
+}
+.shot3-2{
+
+    position: absolute;
+    justify-content: center;
+    opacity: (60%);
+    z-index: 900;
+}
+.shot4-2{
+    
+    position: absolute;
+    justify-content: center;
+    filter: opacity(20%);
+    z-index: 900;
+}
+
+
+
+
+
+.shot5-2{
+    position: absolute;
+    justify-content: center;
+    left: 12%;
+    width: 40%;
+    opacity: (100%);
+    z-index: 899;
+}
+
+
